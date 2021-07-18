@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Font-Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- StyleSheet Link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box">
+                        <form class="form text-center">
+                            <header>Login</header>
+                            <div class="form-group">
+                                <i class="fas fa-user"></i>
+                                <input class="inp" type="text" placeholder=" Enter your Username" id="username"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <i class="fas fa-envelope"></i>
+                                <input class="inp" placeholder="Enter Your Email" type="text" id="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <i class="fas fa-lock"></i>
+                                <input class="inp" type="password" id="password" placeholder="Enter Your Password"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <input id="check_1" name="check_1" type="checkbox" required>
+                                <label>
+                                    <p>Remember me</p></input>
+                                </label>
+                            </div>
+
+                            <input type="submit" class="btn" value="login">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
